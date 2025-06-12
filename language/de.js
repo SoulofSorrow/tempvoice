@@ -1,7 +1,7 @@
 const de = {
     // Dashboard
-    "dashboard_title": "Tempvoice Dashboard",
-    "dashboard_description": "Willkommen in deinem Tempvoice-Dashboard – verwalte und passe deinen Sprachraum an.",
+    "dashboard_title": "{name} Dashboard",
+    "dashboard_description": "Willkommen in deinem {name}-Dashboard – verwalte und passe deinen Sprachraum an.",
     "dashboard_create_link": "Deine Stimme, dein Raum. Starte einen Raum in https://discord.com/channels/{guildId}/{channelId}",
     "dashboard_footer": "Nutze die Schaltflächen unten, um deinen Sprachraum zu verwalten.",
     "name_desc": "Namen des Sprachkanals ändern",

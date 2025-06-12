@@ -81,6 +81,8 @@ Adjust bot behavior easily through `config/config.js`:
 export default {
   language: 'en',        // Language (en, id, ru, jp, cn)
   embedcode: '#2f3136',  // Default embed color
+  name: 'TempVoice',     // Bot/display name
+  banner: 'https://media.discordapp.net/attachments/1357016908611715284/1357016929142964376/tempvoice-dashboard.png', // Banner image for dashboard
   log: true              // Enable or disable action logging
 }
 ```

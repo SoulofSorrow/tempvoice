@@ -1,7 +1,7 @@
 const jp = {
     // Dashboard
-    "dashboard_title": "Tempvoice ダッシュボード",
-    "dashboard_description": "ようこそ、Tempvoice ダッシュボードへ — あなたのボイスチャンネルを管理・カスタマイズしよう。",
+    "dashboard_title": "{name} ダッシュボード",
+    "dashboard_description": "ようこそ、{name} ダッシュボードへ — あなたのボイスチャンネルを管理・カスタマイズしよう。",
     "dashboard_create_link": "自分の声、自分の空間。今すぐ始めよう: https://discord.com/channels/{guildId}/{channelId}",
     "dashboard_footer": "下のボタンでチャンネルを管理できます。",
     "name_desc": "ボイスチャンネルの名前を変更",

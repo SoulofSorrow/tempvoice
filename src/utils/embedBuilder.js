@@ -9,6 +9,8 @@ export const createVoiceEmbed = () => {
   const hex = config.embedcode || '#2f3136'
   const color = parseInt(hex.replace('#', ''), 16)
   const lang = config.language
+  const name = config.name || 'TempVoice'
+  const banner = config.banner
 
   const commands = [
     ['name', '1356995682963292230'],
@@ -29,7 +31,7 @@ export const createVoiceEmbed = () => {
   ]
 
   const desc = [
-    t('dashboard_description', lang),
+    t('dashboard_description', lang, { name }),
     '',
     ...commands.map(([k, emoji]) => `<:${k}:${emoji}> **${t(k, lang)}**: ${t(`${k}_desc`, lang)}`),
     '',
@@ -37,9 +39,9 @@ export const createVoiceEmbed = () => {
   ].join('\n')
 
   return new EmbedBuilder()
-    .setTitle(`<:setting:1357020128742735929> ${t('dashboard_title', lang)}`)
+    .setTitle(`<:setting:1357020128742735929> ${t('dashboard_title', lang, { name })}`)
     .setDescription(desc)
-    .setImage('https://media.discordapp.net/attachments/1357016908611715284/1357016929142964376/tempvoice-dashboard.png')
+    .setImage(banner)
     .setFooter({
       text: t('dashboard_footer', lang),
       iconURL: 'https://cdn.discordapp.com/emojis/1357020128742735929.webp'
