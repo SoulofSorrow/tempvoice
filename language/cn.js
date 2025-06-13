@@ -1,7 +1,7 @@
 const cn = {
     // Dashboard
-    "dashboard_title": "Tempvoice 控制面板",
-    "dashboard_description": "欢迎来到 Tempvoice 控制面板 — 自定义和管理你的语音频道。",
+    "dashboard_title": "{name} 控制面板",
+    "dashboard_description": "欢迎来到 {name} 控制面板 — 自定义和管理你的语音频道。",
     "dashboard_create_link": "你的频道，你来掌控。点击创建：https://discord.com/channels/{guildId}/{channelId}",
     "dashboard_footer": "使用下方按钮来管理你的语音频道。",
     "name_desc": "修改语音频道名称",

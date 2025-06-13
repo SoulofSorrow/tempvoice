@@ -1,7 +1,7 @@
 const en = {
     // Dashboard
-    "dashboard_title": "Tempvoice Dashboard",
-    "dashboard_description": "Welcome to your Tempvoice dashboard — manage and customize your voice room.",
+    "dashboard_title": "{name} Dashboard",
+    "dashboard_description": "Welcome to your {name} dashboard — manage and customize your voice room.",
     "dashboard_create_link": "Your voice, your space. Start a room in https://discord.com/channels/{guildId}/{channelId}",
     "dashboard_footer": "Press the buttons below to manage your voice room.",
     "name_desc": "Change the voice channel name",

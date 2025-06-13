@@ -1,7 +1,7 @@
 const id = {
     // Dashboard
-    "dashboard_title": "Dasbor Tempvoice",
-    "dashboard_description": "Selamat datang di dasbor Tempvoice kamu — atur dan sesuaikan ruang obrolan suaramu.",
+    "dashboard_title": "Dasbor {name}",
+    "dashboard_description": "Selamat datang di dasbor {name} kamu — atur dan sesuaikan ruang obrolan suaramu.",
     "dashboard_create_link": "Suaramu, ruangmu. Mulai ruang di https://discord.com/channels/{guildId}/{channelId}",
     "dashboard_footer": "Gunakan tombol di bawah ini untuk kelola channel suaramu.",
     "name_desc": "Ubah nama channel suara",

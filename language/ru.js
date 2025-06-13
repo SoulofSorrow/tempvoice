@@ -1,7 +1,7 @@
 const ru = {
     // Dashboard
-    "dashboard_title": "Панель Tempvoice",
-    "dashboard_description": "Добро пожаловать в панель Tempvoice — управляй и настраивай свой голосовой канал.",
+    "dashboard_title": "Панель {name}",
+    "dashboard_description": "Добро пожаловать в панель {name} — управляй и настраивай свой голосовой канал.",
     "dashboard_create_link": "Твой голос — твоя комната. Начни здесь: https://discord.com/channels/{guildId}/{channelId}",
     "dashboard_footer": "Используй кнопки ниже, чтобы управлять каналом.",
     "name_desc": "Изменить название голосового канала",
