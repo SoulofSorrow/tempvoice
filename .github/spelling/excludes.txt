@@ -1,0 +1,2 @@
+# exclude JavaScript built files
+node_modules/

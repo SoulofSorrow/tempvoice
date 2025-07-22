@@ -1,0 +1,6 @@
+TempVoice
+Jevenchy
+Discord
+discordjs
+multilingual
+DISCORD_TOKEN
